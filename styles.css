@@ -1,6 +1,6 @@
 header {
     background-color: white;
-    padding: 5px ;
+    padding: 2px ;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
     }
     .nav-center{
@@ -21,15 +21,15 @@ header {
         display: flex;
         gap: 1rem;
         align-items: center;
-        padding: 10px;
+        padding: 3px 10px;
     }
     .nav-center img{
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
     .nav-center h1{
         text-transform: capitalize;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
     body{
         background-color: whitesmoke;
@@ -40,23 +40,24 @@ header {
         background-color: white;
         box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.2);
         border-radius: 5px;
-        width: 35vw;
+        width: 32vw;
         padding-left: 1rem;
-        padding: 1rem 10px;
+        padding:10px 10px;
         display: none;
+        height: 28vh;
     }
     .add-note-outer-container{
         display: flex;
         justify-content: center;
-        margin-top: 5rem;
+        margin-top: 2rem;
         margin-bottom: 0;
     }
     .add-title{
-        padding: 0.5rem;
+        padding: 0.2rem;
         z-index: 10;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         border: 0;
-        width: 27vw;
+        width: 20vw;
         letter-spacing: 1px;
         text-transform: capitalize;
         font-weight: 500;
@@ -67,11 +68,11 @@ header {
     }
     .add-note{
         border-radius: 5px;
-        font-size: 1.5rem;
-        padding: 0.5rem;
+        font-size: 1rem;
+        padding: 0.2rem;
         border: 0;
         display: block;
-        width: 27vw;
+        width: 20vw;
         letter-spacing: 1px;
         margin-top: 1.3rem;
         font-weight: 500;
@@ -86,17 +87,17 @@ header {
     .note-box{
         border-radius: 5px;
         width: 100%;
-        padding: 1rem;
+        padding: 0.7rem;
     
     }
     .add-note-btns>*{
        
         font-weight: 800;
-        font-size: 1.8rem;
+        font-size: 1.3rem;
         color: rgb(51, 51, 51);
         cursor: pointer;
         border-radius: 50%;
-        padding: 1rem;
+        padding: 0.6rem;
         &:hover{
             background-color: rgba(196, 196, 196, 0.486);
     
@@ -105,7 +106,7 @@ header {
     .add{
       
         padding: 10px 1rem ;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         background-color: hsl(205,78%,60%);
         color: white;
         border: 0;
@@ -123,25 +124,24 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 32vw;
-        margin-top: 3.5rem;
+        margin-top: 0.2rem;
+        padding: 3px 12px;
     
     }
     .add-note-btns{
         display: flex;
         justify-content: space-between;
-        width: 10vw;
+        width: 8vw;
     }
     
     .note-container{
-        width: 80vw;
-        width: 300px;
+        width: 250px;
     
         background-color: white;
         border-radius: 5px;
-        padding: 10px 1rem;
-        margin-top: 2rem;
-        margin-left: 5rem;
+        padding: 3px 15px;
+        margin-top: 1.3rem;
+        margin-left: 2rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -155,30 +155,33 @@ header {
     
     }
     .note-container h3{
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         text-transform: capitalize;
         letter-spacing: 1px;
         margin-bottom: 0;
         font-family: sans-serif;
+        width: 200px;
+        max-width: 210px;
+
     }
     .note-container p{
-        font-size: 1.3rem;
+        font-size: 1rem;
         letter-spacing: 1px;
-        margin-top:1.5rem;
-        color: rgb(31, 30, 30);
+        margin-top:1rem;
+        color: rgb(55, 54, 54);
         font-family: sans-serif;
     }
     .note-btn-container>*{
-        font-size: 1.6rem;
+        font-size: 1.1rem;
         cursor: pointer;
     
     
     }
     .color-palette-container>*{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
-        margin-right: 12px;
+        margin-right: 1rem;
         &:hover{
             border: 3px solid black;
             overflow: hidden;
@@ -191,13 +194,13 @@ header {
     
         border-radius: 5px;
         background-color: white;
-        padding: 1rem;
-        width: 350px;
-        height: 50x;
+        padding: 0.5rem;
+        width: 300px;
+        height: 40px;
         box-shadow: 0px 0px 2px 3px rgba(0,0,0,0.1);
-        margin: 2px auto;
         position: relative;
-        bottom: 3rem;
+        bottom: 0.5rem;
+        left: 10%;
         visibility: hidden;
         transition: 0.1s ease-in-out all;
        
@@ -211,12 +214,12 @@ header {
 
     .top-note{
         border-radius: 5px;
-        font-size: 1.5rem;
-        padding: 0.5rem;
+        font-size: 1.3rem;
+        padding: 0.2rem 0.8rem;
         border: 0;
         width: 27vw;
         letter-spacing: 1px;
-        margin-top: 1.3rem;
+        margin-top: 1.2rem;
         font-weight: 500;
         display: none;
         height: 70px;
@@ -274,6 +277,65 @@ header {
         margin: -5px 3px;
         
     }
-   
+    .notes>*{
+        max-width: 300px;
+        word-break: break-all;
+    }
+    /* @media screen and (max-width: 1500px), 
+       screen and (max-height: 700px) {
+        .add-note-container{
+            width: 40vw;
+            height: 40vh;
+            margin-bottom: 2rem;
+        
+        }
+} */
+   @media screen and (max-width:1300px ) {
+    
+    .note-outer-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+  
+   .add-note-container{
+    width: 40vw;
+    height: 35vh;
+    margin-bottom: 2rem;
+
+}
+   }
+   @media screen and (max-width:900px) {
+    
+    .note-outer-container{
+        grid-template-columns: 1fr 1fr ;
+        
+    }
+    .top-note{
+        width: 40vw;
+    }
+    .add-note-container{
+        width: 45vw;
+        height: 35vh;
+        margin-bottom: 2rem;
+    }
+   }
+   @media screen and (max-width:550px) {
+    
+    .note-outer-container{
+       display: block;
+       width: 350px;
+       margin: 5px auto;
+}
+.top-note{
+    width: 36vw;
+}
+.add-note-container{
+    width: 58vw;
+    height: 35vh;
+    margin-bottom: 2rem;
+
+}
+
+   }
  
    
